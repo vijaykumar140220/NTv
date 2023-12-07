@@ -80,11 +80,10 @@ nav label {
   nav ul {
     flex-direction: column;
     align-items: center;
-    padding: 0.5rem 0;
   }
   nav img{
-    width: 10%;
-    height: 10vh;
+    width: 60px;
+    height: 50px;
   }
   nav label {
     display: inline-flex;
@@ -103,8 +102,7 @@ nav label {
   }
   .production p{
     font-size: 14px;
-    margin: 0 70px;
-    padding: 0 0px;
-    text-align: center;
+    margin: 0 60px;
+    padding: 0;
   }
 }
