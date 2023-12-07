@@ -82,6 +82,10 @@ nav label {
     align-items: center;
     padding: 0.5rem 0;
   }
+  nav img{
+    width: 10%;
+    height: 10vh;
+  }
   nav label {
     display: inline-flex;
     color: white;
