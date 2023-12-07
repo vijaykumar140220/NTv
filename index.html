@@ -23,7 +23,7 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Test Models</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="#">Terms & Condition</a></li>
           </ul>
         </div>
@@ -35,7 +35,26 @@
         <video controls autoplay loop src="WhatsApp Video 2023-12-07 at 13.27.45_89444d15.mp4"></video>
 
         <p>Ntv Films & casting Production making project low to high budget to genre-defining films, from working with the Strugller actors of the industry to launching young talent in films, from being the distribution house with the strongest global foothold to pioneering new formats of distribution and exploring newer territories, from launching compelling story-telling forms to the numerous digitally led innovations, Ntv Films & casting Production maintained its flagship position across all verticals since its genesis Ntv Films & casting Production founded by the Naveen Malviya, a veteran of the Indian film industry, in 2021. It’s the only privately held and fully integrated studio in India producing and having producing start from 2021, Ntv Films & casting Production is now a 01-year-strong production house and a vertically integrated Production in every sense, controlling almost every part of the value chain from production to post production,domestic & indian distribution, music & home entertainment, marketing,Animation design ,Tvc Advertisement,digital licensing, merchandising, talent management,Celebrity Casting and sound/Music management brand partnerships, music and film studios - all in-house facilities, which make it one of the most coveted entertainment conglomerates in the country.</p>
-</div>
+    </div>
+
+    <div class="container" id="contact">
+        <h1>Contact Us</h1>
+        <form id="contactForm" onsubmit="validateForm(event)">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
 
   </body>
 
