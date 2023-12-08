@@ -359,6 +359,9 @@ button:hover {
   nav #toggle:checked ~ .menu {
     height: 100%;
   }
+  .team{
+    margin: 40px 30px;
+  }
   .production{
     display: block;
   }
@@ -372,6 +375,28 @@ button:hover {
     padding: 0;
   }
   .Services img{
-    height: 30vh;
+    height: 20vh;
+  }
+  .Services-one img{
+    height: 20vh;
+  }
+  .Services-two img{
+    height: 20vh;
+  }
+  .Services-three img{
+    height: 20vh;
+  }
+  .Services-four img{
+    height: 20vh;
+  }
+  .Services-five img{
+    height: 20vh;
+  }
+  .container #name,#email,#message{
+    width: 100%;
+  }
+  .container button{
+    width: 50%;
+    text-align: center;
   }
 }
