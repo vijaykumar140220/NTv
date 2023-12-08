@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:ital,wght@0,200;1,400&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,13 +10,16 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #090909;
-  height: 100vh;
   width: 100%;
   padding: 1rem;
 }
 
+body .wrapper{
+  position: sticky;
+  top: 0px;
+}
+
 .wrapper {
-  width: 100%;
   padding: 10px;
 }
 nav {
@@ -22,7 +27,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: hsl(352, 91%, 35%);
+  background-color: rgba(230, 6, 6, 0.5);
   padding: 1rem 1.5rem;
   border-radius: 0.4rem;
 }
@@ -156,6 +161,179 @@ button:hover {
     width: 300px;
     height: 250px;
 }
+.About{
+  width: 100%;
+  text-align: center;
+}
+.About img{
+  width: 40%;
+  height: 50vh;
+}
+.About img:hover{
+  border: 2px solid white;
+}
+.About h3{
+  color: blue;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+.About h3:hover{
+  text-decoration: underline white;
+}
+.About h3 span{
+  color: red;
+}
+.About p{
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.Services{
+  width: 100%;
+  text-align: center;
+}
+.Services h1{
+  color: white;
+  margin: 20px 0;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+.Services h3{
+  margin: 20px 0;
+  color: white;
+}
+.Services img{
+  width: 40%;
+  height: 40vh;
+}
+.Services h2{
+  color: white;
+  margin: 20px 0;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+.Services p{
+  color: white;
+}
+
+.Services-one{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.Services-one img{
+  width: 40%;
+  height: 40vh; 
+  margin: 20px 0;
+}
+
+.Services-one h2{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.Services-two{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.Services-two img{
+  width: 40%;
+  height: 40vh; 
+  margin: 20px 0;
+}
+
+.Services-two h2{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.Services-three{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+
+.Services-three img{
+  border: 2px solid white;
+  margin: 20px auto;
+}
+
+.Services-three h2{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.Services-four{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+
+.Services-four img{
+  width: 40%;
+  height: 40vh; 
+  border: 2px solid white;
+  margin: 20px auto;
+}
+
+.Services-four h2{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.Services-five{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+
+.Services-five img{
+  width: 40%;
+  height: 40vh; 
+  border: 2px solid white;
+  margin: 20px auto;
+}
+
+.Services-five h2{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.Testmodel{
+  color: white;
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.Testmodel h1{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+.Testmodel p{
+  margin: 20px auto;
+}
+.Testmodel h2{
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+
 
 @media (max-width: 40.625em) {
   nav .menu {
