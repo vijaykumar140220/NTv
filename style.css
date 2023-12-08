@@ -262,6 +262,8 @@ button:hover {
 }
 
 .Services-three img{
+  width: 40%;
+  height: 40vh;
   border: 2px solid white;
   margin: 20px auto;
 }
@@ -368,5 +370,8 @@ button:hover {
     font-size: 14px;
     margin: 0 60px;
     padding: 0;
+  }
+  .Services img{
+    height: 30vh;
   }
 }
